@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Nike | HOME</title>
+    <link rel="stylesheet" href="styles.css" />
+    
+  </head>
+  <body>
+  
+	<!-- Hearder Content -->
+    <div class="container">
+      <header id="header" style="border-style: outset;">
+	<!-- Logo Symbol -->  
+	  <div id="logo">
+            <img id="header-img" src="img/Nike-Logo.png" alt="logo" />
+            <h1>Nike</h1>
+			<a href="#log"><h5 style="margin-left: 10em";><u>Join/Log in To Nike Member Profile</u></h5></a>
+			
+      </div>
+       
+        <nav id="nav-bar">
+            <ul id="nav-link-container">
+		    <!-- Navigation Bar on the header linking to the different sections -->
+            <li ><a class="nav-link" href="#vid">VIDEO</a></li>
+            <li ><a class="nav-link" href="#men">MEN</a></li>
+            <li ><a class="nav-link" href="#women">WOMEN</a></li>
+			<li ><a class="nav-link" href="#kids">KIDS</a></li>
+			<input type="text" name="searchbar" placeholder="search.." size="20">
+			</ul>
+			</nav>
+		 </header>
+    </div>
+     
+	
+	<!-- Main content -->
+	
+    <main id="main-content">
+	<section id="main-info">
+        <div class="container text-center">
+		<p class="text-size1" > Introducing the new Nike React Infinity Run</p>
+	<!-- Marquee Effects -->	
+		<div class = "main">
+		<marquee class="marq" width="50%" direction="right" height="20px" font color="black" >
+        <div class="g"><i>Get the latest Exclusives and Offers.<u>Join now</u></i></div>
+		</marquee>
+		</div>
+		
+		<p class="text-size2" > Extra 20% off Sale Styles</p>
+		<h5 style="color:b;"><u><Center>Use Code FORYOU at checkout.Exclusions Apply.</Center></u></h5>
+          
+		<!-- Sliding Animated Images -->
+		 <img class="mySlides" src="img/2.jpg" style="width:100%>
+		
+		 <img class="mySlides" src="img/3.jpg" style="width:100%>
+	     <img class="mySlides" src="img/3.jpg" style="width:100%">
+		 <img class="mySlides" src="img/7.jpg" style="width:100%">
+		 <img class="mySlides" src="img/3.jpg" style="width:100%">
+		 <img class="mySlides" src="img/4.jpg" style="width:100%">
+		 <img class="mySlides" src="img/6.jpg" style="width:100%">
+		 <img class="mySlides" src="img/8.jpg" style="width:100%>
+		 <img class="mySlides" src="img/5.jpg" style="width:100%>
+		 <h1 class="l-heading">Designed to <span class="text-primary">help reduce injury</span></h1>
+		</div>
+    </section>
+    </main>
+
+    <!-- Video header -->
+    <section id="vid">
+      <div class="container text-center">
+        <h2 class="m-heading">Video</h2>
+        <div class="border-bottom-heading"></div>
+        <p class="sty">Check out this video below React Infinity Run | Behind the Design | NIKE</p>
+        <!--embedded product video in the iframe -->
+		<iframe
+		  id="video"
+          src="https://www.youtube.com/embed/EIeheJ-6pvE/"
+		  alt="React Infinity Run- Behind the Design">
+		 </iframe>
+	  </div>
+    </section>
+
+     <!--Men's Section Header-->
+    <section id="men">
+      <div class="container text-center">
+        <h2 class="m-heading">Men's</h2>
+        <div class="border-bottom-heading"></div>
+        <p class="sty">Everything You Need is Already Inside. Just Do It.</p>
+		<div class = "main">
+		<marquee class="marq" width="50%" direction="right" height="20px" font color="black" >
+        <div class="g"><i><u>Click on the Items to Add To Cart</u></i></div>
+		</marquee>
+		</div>
+		
+        <!--Mens Shoes-->
+        <div id="men-container">
+          <div class="men-customer">
+		  <div class="circular-image">   
+		  <img id="center-first-image"src="img/11.jpg" alt="shoe_1" /></div>
+		  <div class="card">
+	      <p><button onclick="myClick()">Add to Cart</button></p>
+		  <p id="clicked"></p>
+          </div>
+          <h3>Rs.2,599</h3>
+          <p style="font-family:Times";"font-size:30%";>Nike Men Black FLEX </br>Experience 8 Running Shoes(Black)</p>
+          </div>
+         
+		 <div class="men-customer">
+         <div class="circular-image">
+		 <img src="img/12.jpg" alt="shoe_2" /></div>
+		 <div class="card">
+	     <p><button onclick="myClick()">Add to Cart</button></p>
+		 <p id="clicked"></p>
+         </div>
+         <h3>Rs.10,497</h3>
+         <p style="font-family:Times";"font-size:30%">Nike Joyride Run Flyknit</br>Men's Running Shoes(White)</p>
+         </div>
+         
+		 <div class="men-customer">
+         <div class="circular-image"> 
+		 <img id="center-third-image" src="img/13.jpg" alt="shoe_3" />
+         </div>
+		 <div class="card">
+	     <p><button onclick="myClick()">Add to Cart</button></p>
+		 <p id="clicked"></p>
+         </div>
+         <h3>Rs.9,097</h3>
+         <p style="font-family:Times";"font-size:30%">Nike Epic Phantom React</br>Men's Running Shoes(Blue)</p>
+         </div>
+        </div>
+	   
+	    <div id="men-container">
+	     <div class="men-customer">
+         <div class="circular-image">   
+		 <img id="center-forth-image"src="img/14.jpg" alt="shoe_4" /></div>
+		 <div class="card">
+	     <p><button onclick="myClick()">Add to Cart</button></p>
+		 <p id="clicked"></p>
+         </div>
+         <h3>Rs.8,797</h3>
+         <p style="font-family:Times";"font-size:30%">Nike Air Zoom Pegasus</br>Court Football Shoes(Green)</p>
+         </div>
+		 
+		 <div class="men-customer">
+         <div class="circular-image">   
+		 <img id="center-fifth-image"src="img/15.jpg" alt="shoe_5" /></div>
+		 <div class="card">
+	     <p><button onclick="myClick()">Add to Cart</button></p>
+		 <p id="clicked"></p>
+         </div>
+         <h3>Rs.3,149</h3>
+         <p style="font-family:Times";"font-size:30%">Nike Dare Walking</br>Shoes for Men(Grey)</p>
+         </div>
+		   
+		 <div class="men-customer">
+         <div class="circular-image">    
+		 <img id="center-sixth-image"src="img/16.jpg" alt="shoe_6" /></div>
+		 <div class="card">
+	     <p><button onclick="myClick()">Add to Cart</button></p>
+		 <p id="clicked"></p>
+		 </div>
+         <h3>Rs.8,797</h3>
+         <p style="font-family:Times";"font-size:30%">Nike Legend React</br>Men's Running Shoes(Blue)</p>
+         </div>
+	    </div>
+	   </section>
+	   
+	   
+	   
+	   
+	<!--Women's Section Header--> 
+    <section id="women">
+      <div class="container text-center">
+        <h2 class="m-heading">Women's</h2>
+        <div class="border-bottom-heading"></div>
+		<p class="sty">Strong Is The New Beautiful.</p>
+		<div class = "main">
+		<marquee class="marq" width="50%" direction="right" height="20px" font color="black" >
+        <div class="g"><i>Click on the Items to Add To Cart</i></div>
+		</marquee>
+		</div>
+		
+        <!--Women's Shoes-->
+        <div id="women-container">
+        <div class="women-customer">
+		<div class="circular-image">    
+		<img id="center-first-image" src="img/17.jpg" alt="shoe_1" /></div>
+		<div class="card">
+	    <p><button onclick="myClick()">Add to Cart</button></p>
+		<p id="clicked"></p>
+        </div>
+        <h3>Rs.12,797</h3>
+        <p style="font-family:Times";"font-size:30%";>Air Jordan 7 Retro </br>Women Running Shoes(Black)</p>
+        </div>
+         
+		<div class="women-customer">
+        <div class="circular-image"><img src="img/18.jpg" alt="shoe_2" /></div>
+		<div class="card">
+	    <p><button onclick="myClick()">Add to Cart</button></p>
+		<p id="clicked"></p>
+        </div>
+        <h3>Rs.5,597</h3>
+        <p style="font-family:Times";"font-size:30%">Nike Air Force 1'07</br>Essential Icon Clash(Golden)</p>
+        </div>
+         
+		<div class="women-customer">
+        <div class="circular-image"> <img id="center-third-image" src="img/19.jpg" alt="shoe_3" />
+        </div>
+		<div class="card">
+	    <p><button onclick="myClick()">Add to Cart</button></p>
+		<p id="clicked"></p>
+        </div>
+        <h3>Rs.6,397</h3>
+        <p style="font-family:Times";"font-size:30%">Nike P-6000 Icon Clash</br>Women's Running Shoes(Red)</p>
+        </div>
+        </div>
+	   
+	    <div id="women-container">
+	    <div class="women-customer">
+        <div class="circular-image">    
+		<img id="center-forth-image"src="img/20.jpg" alt="shoe_4" /></div>
+		<div class="card">
+	    <p><button onclick="myClick()">Add to Cart</button></p>
+		<p id="clicked"></p>
+        </div>
+        <h3>Rs.11,995</h3>
+        <p style="font-family:Times";"font-size:30%">Nike Joyride Dual run</br>Women's Running Shoes(Pearl)</p>
+        </div>
+		 
+		<div class="women-customer">
+        <div class="circular-image">    
+		<img id="center-fifth-image" src="img/21.jpg" alt="shoe_5" /></div>
+		<div class="card">
+	    <p><button onclick="myClick()">Add to Cart</button></p>
+		<p id="clicked"></p>
+        </div>
+        <h3>Rs.12,899</h3>
+        <p style="font-family:Times";"font-size:30%">Nike Air VaporMax Flyknit</br>Shoes for Women(Black)</p>
+        </div>
+		   
+		<div class="women-customer">
+        <div class="circular-image">   
+		<img id="center-sixth-image"src="img/22.jpg" alt="shoe_6" /></div>
+		<div class="card">
+	    <p><button onclick="myClick()">Add to Cart</button></p>
+		<p id="clicked"></p>
+        </div>
+        <h3>Rs.11,995</h3>
+        <p style="font-family:Times";"font-size:30%">Nike AirMax 270 React</br>Women's Running Shoes(Pink)</p>
+        </div>
+		</div>
+	   </section>
+	   
+	   
+	 <!--Kids's Section Header-->  
+    <section id="kids">
+      <div class="container text-center">
+      <h2 class="m-heading">Kids</h2>
+      <div class="border-bottom-heading"></div>
+	  <p class="sty"> Let Kids be Kids.</p>
+	  <div class = "main">
+	  <marquee class="marq" width="50%" direction="right" height="20px" font color="black" >
+      <div class="g"><i><u>Click on the Items to Add To Cart</u></i></div>
+	  </marquee>
+	  </div>
+		<!--Kids's Shoes with description-->
+	  <div id="kids-container">
+	  <div class="kids-customer">
+      <div class="circular-image"><img src="img/23.jpg" alt="shoe_1" /></div>
+	  <div class="card">
+	  <p><button onclick="myClick()">Add to Cart</button></p>
+	  <p id="clicked"></p>
+      </div>
+      <h3>Rs.5,997</h3>
+      <p style="font-family:Times";"font-size:30%">Nike Air max 200</br>Older Kids Shoe(Black)</p>
+	  </div>
+         
+      <div class="kids-customer">
+      <div class="circular-image"><img src="img/24.jpg" alt="shoe_2" /></div>
+	  <div class="card">
+	  <p><button onclick="myClick()">Add to Cart</button></p>
+	  <p id="clicked"></p>
+      </div>
+      <h3>Rs.9,995</h3>
+      <p style="font-family:Times";"font-size:30%">Nike Air Zoom Pegasus</br>Kids Running Shoe(Blue)</p>
+	  </div>
+         
+	  <div class="kids-customer">
+      <div class="circular-image"> <img id="center-third-image" src="img/25.jpg" alt="shoe_3" />
+      </div>
+	  <div class="card">
+	  <p><button onclick="myClick()">Add to Cart</button></p>
+	  <p id="clicked"></p>
+      </div>
+      <h3>Rs.10,995</h3>
+      <p style="font-family:Times";"font-size:30%">Nike Air Max 720</br>Older Kids Shoe(Green)</p>
+	  </div>
+      </div>
+	  
+	  <!--Help Button-->
+	  <section id="help">
+	  
+	  </section
+	
+	<!--Login form with emaild Validation-->
+	<section id="log">
+      <div class="container text-center">
+      <h2 class="m-heading">Get Started</h2>
+      <p class="text-size">
+      </p>
+       
+        <div class="mail">
+		<form id="form" name="Details" action="/action_page.php" method="get" target="_blank">
+		<label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+		
+		<ul>
+		<label for="Email">Email:</label> 
+        <input type="email" name="email" id="email" placeholder="Enter your email" required>
+        <li>&nbsp;</li>
+		<li class="submit"><input type="submit" name="submit" value="Submit"  onclick="ValidateEmail(document.form1.text1)"/></li>
+        </ul>
+		
+        </form>
+        </div>
+        </div>
+    </section>
+
+
+   
+</body>
+<script>
+<!--Script for sliding the images every 2 seconds-->
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none"; 
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1} 
+  x[slideIndex-1].style.display = "block"; 
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+
+<!--Email Validation script-->
+function ValidateEmail(inputText)
+{
+var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+if(inputText.value.match(mailformat)) 
+
+{
+alert("You have entered an valid email address!");
+document.form1.text1.focus();
+return true;
+}
+else
+{
+alert("You have entered an invalid email address!");
+document.form1.text1.focus();
+return false;
+}
+}
+
+<!--Pop up on clicking a button-->
+function myClick() {
+  var txt;
+  if (confirm("Item Added Successfully to the Cart!")) {
+   } else {
+    
+  }
+ 
+}
+
+</script>
+<!-- Footer-->
+<div class="footer">
+<p>Get Help</p>
+</html>

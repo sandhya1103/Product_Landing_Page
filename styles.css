@@ -1,0 +1,474 @@
+/* CSS Reset */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  scroll-behavior: smooth;
+  font-family: Franklin Gothic Medium;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+a:link,
+a:visited {
+  color: black;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.container {
+  max-width: 1100px;
+  overflow: hidden;
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+.text-primary {
+  color: lime;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.border-bottom-heading {
+  border-bottom-color: #00FF00;
+  width: 250px;
+  margin: 10px auto 30px auto;
+}
+
+.l-heading {
+  font-size: 4rem;
+  text-transform: capitalize;
+}
+
+.m-heading {
+  font-size: 2rem;
+  text-transform: capitalize;
+  color:lime;
+  border-style: outset;
+  
+}
+
+.text-size {
+  font-size: 80%;
+  text-transform: capitalize;
+  margin-top: 3rem;
+  font-family:;
+  text-align: right;
+  text-decoration: ;
+   font-style: oblique
+  
+  
+  
+}
+.text-size1 {
+  font-size: 80%;
+  text-transform: capitalize;
+  margin-top: 5rem;
+  font-family:New Century Schoolbook  ;
+  color:white;
+  text-align: right;
+  text-decoration:underline lime ;
+
+  
+}
+.text-size2 {
+  font-size: 20%;
+  text-transform: capitalize;
+  margin-top: 3rem;
+  color:red;
+  text-decoration: ;
+  font-style: oblique
+  
+  
+}
+.sty{
+
+  color:black;	
+  font-family:fantasy;
+  font-size:105%;
+	
+}
+input[type=text] {
+  width: 100px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  outline-color: #f92525
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+  width: 100%;
+  outline-color: black
+  
+  }
+  
+  
+.mail {
+margin: auto;
+padding-top: 10px;
+padding-bottom: 10px;
+width: 500px;
+background : #F0F0F0;
+border: 1px soild silver;
+}
+.mail h2 {
+margin-left: 38px;
+}
+input {
+font-size: 10pt;
+}
+input:focus, textarea:focus{
+background-color:;
+}
+input submit {
+font-size: 3pt;
+}
+.rq {
+color: #FF0000;
+font-size: 8pt;
+
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height:5%;
+  width: 100%;
+  background-color: #A0A0A0;
+  color: black;
+  text-align: center;
+}
+.main { 
+        text-align:center; 
+    } 
+.marq { 
+        padding-top:15px; 
+        padding-bottom:16px; 
+    } 
+.g { 
+        font-size:14px; 
+        font-weight:900; 
+        color:black; 
+        padding-bottom:10px; 
+    } 
+	
+.card {
+  
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  padding-bottom:10px;
+  
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 5px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 40%;
+  font-size: 10px;
+}
+
+.card button:hover {
+  opacity: 0.4;
+}
+
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 2px;
+  font-family:Times New Roman;
+  
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+
+ /* Flex-container */
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  z-index: 2;
+  background: #fff;
+}
+
+#header #logo {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+#nav-link-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* Image responsive */
+#header #header-img {
+  max-width: 50px;
+  height: 50px;
+  display: block;
+}
+
+#nav-bar {
+  margin: 10px;
+}
+#nav-bar .nav-link {
+  margin: 0 0.5rem;
+}
+
+#nav-bar #nav-link-container li {
+  padding: 0.5rem;
+  border: none;
+  border-bottom: 2px solid transparent;
+  transition: border 0.3s ease;
+}
+
+#nav-bar #nav-link-container li:hover {
+  border-bottom-color: black;
+}
+
+
+/* Grey backround */
+#main-content #main-info::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: #333;
+  z-index: -1;
+  opacity: 0.6;
+}
+
+/* Main content */
+#main-content #main-info {
+  position: relative;
+  top: 30px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  z-index: 1;
+}
+
+
+
+#main-content #main-info p {
+  font-size: 2rem;
+  text-transform: capitalize;
+  margin-top: 0rem;
+}
+
+
+#vid:before {
+  display: block;
+  content: "";
+  height: 50px;
+  margin: -50px 0 0;
+}
+
+#vid {
+  position: relative;
+  top: 2rem;
+  margin: auto;
+}
+/* Video */
+#vid #video {
+  margin: 1rem;
+  width: 750px;
+  height: 350px;
+  border: none;
+}
+
+#men #men-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#men .men-customer {
+  flex: 1;
+}
+
+
+#men .men-customer .circular-image {
+  display: inline-block;
+  position: relative;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  margin-top: 40px;
+  border-radius: 50%;
+}
+
+
+
+#men.men-customer img {
+  width: 100px;
+}
+
+/* This is to center the men shoe in the first img */
+#men #men-first-image {
+  margin-top: -20px;
+}
+
+/* This is to center the men shoe in the last  image */
+#men #men-third-image {
+  margin-top: -40px;
+}
+
+#men #men-forth-image {
+  margin-top: -60px;
+}
+
+#men .men-customer p {
+  margin-top: 1rem;
+}
+
+/*Women Shoes*/
+
+#women #women-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#women .women-customer {
+  flex: 1;
+}
+
+
+#women .women-customer .circular-image {
+  display: inline-block;
+  position: relative;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  margin-top: 40px;
+  border-radius: 50%;
+}
+
+
+
+#men.women-customer img {
+  width: 100px;
+}
+
+/* This is to center the women shoe in the first image */
+#women #women-first-image {
+  margin-top: -20px;
+}
+
+/* This is to center the women shoe inthe last image */
+#women #women-third-image {
+  margin-top: -40px;
+}
+
+#women #women-forth-image {
+  margin-top: -60px;
+}
+
+#women .women-customer p {
+  margin-top: 1rem;
+}
+
+/*Kids*/
+#kids #kids-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#kids .kids-customer {
+  flex: 1;
+}
+
+
+#kids .kids-customer .circular-image {
+  display: inline-block;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  margin-top: 20px;
+  
+}
+
+
+
+#kids.kids-customer img {
+  width: 100px;
+}
+
+/* This is to center the img in the first image */
+#kids #kids-first-image {
+  margin-top: -20px;
+}
+
+/* This is to center the img inthe last image */
+#kids #kids-third-image {
+  margin-top: -40px;
+}
+
+#kids #kids-forth-image {
+  margin-top: -60px;
+}
+
+#kids .kids-customer p {
+  margin-top: 1rem;
+
+
+
